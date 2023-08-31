@@ -1,0 +1,19 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'PharoJS',
+      #directory : 'Pharo',  
+      #platforms : [ #pharo ]
+    }
+  ],
+  #preTesting : [
+    'scripts/setup.st'
+  ],
+  #postTesting : [
+    'scripts/exportApp.st'
+  ],
+  #testing : {
+    #packages : [ 'PjHelloWorldApp'],
+    #failOnZeroTests : false
+  }
+}
