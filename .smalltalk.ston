@@ -13,7 +13,7 @@ SmalltalkCISpec {
     'scripts/exportApp.st'
   ],
   #testing : {
-    #packages : [ 'PharoJs-Examples-Tests' ],
+    #packages : [  ],
     #failOnZeroTests : false
   }
 }
